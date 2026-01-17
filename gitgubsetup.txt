@@ -24,7 +24,7 @@ utils.py -> can contain mongodb client (connection), or save the model to cloud 
 step4 -> create a notebook folder and inside it make a data folder 
 inside data folder put the file data.csv , inside the notebook folder create a EDA STUDENT PERFORMANCE.ipynb and
 MODEL TRAINER.ipynb files 
-step5 -> write data_ingestion.py file
-step6 -> write data_transformation.py file
+step5 -> write data_ingestion.py file (contains the code for train and test split)
+step6 -> write data_transformation.py file (contains the code for feature engineering , data cleaning, converting categorical features to numerical features)
 
 
