@@ -21,6 +21,10 @@ step3 -> pipeline folder in src folder -> this will contain three files
     c) predict_pipeline.py
 step4 -> src folder will also contain logger.py , exception.py & utils.py( all the general things which i need for my entire application is written here)
 utils.py -> can contain mongodb client (connection), or save the model to cloud code 
-
+step4 -> create a notebook folder and inside it make a data folder 
+inside data folder put the file data.csv , inside the notebook folder create a EDA STUDENT PERFORMANCE.ipynb and
+MODEL TRAINER.ipynb files 
+step5 -> write data_ingestion.py file
+step6 -> write data_transformation.py file
 
 

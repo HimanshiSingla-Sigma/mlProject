@@ -1,5 +1,5 @@
 import sys
-
+from src.logger import logging
 # this is a function for custom exception
 # whereever I need to raise exception , i will just call this function
 def error_message_detail(error, error_detail:sys):
