@@ -1,0 +1,13 @@
+step 1 - > make a github repository
+    a) virtual environment  -> conda create -p venv python==3.10 -y
+                            -> now activate the virtual environment -> conda activate venv/
+                            -> next step is to sync the github repository with vs code after activating the venv
+                            -> to sync the github , just follow the steps given in the github only
+                            -> after syncing create a .gitignore file in github only and select python
+                            -> git pull -> to make the .gitignore file visible in vs code , this file automatically contains venv 
+    b) setup.py -> make after .gitignore 
+    c) requirements.txt -> contains all the necessary files and also -e . command to 
+    automatically trigger setup.py in order to create a package for our machine learning application
+    pip install -r requirements.txt
+    d) src folder -> main folder in which we will be building our entire application and this 
+    will work as a package which others can import 
