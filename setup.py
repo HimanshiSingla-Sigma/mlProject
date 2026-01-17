@@ -23,7 +23,7 @@ def get_requirements(file_path: str)->List[str]:
         # but we don't want them
         requirements = [requirement.replace("\n","") for requirement in requirements]
         if HYPHEN_E in requirements:
-            requirements.remove(HYPHEN_E)
+            requirements.remove(HYPHEN_E) # as we do not want .e - in ou requirements list 
     return requirements
 setup(
     name="mlProject",                  

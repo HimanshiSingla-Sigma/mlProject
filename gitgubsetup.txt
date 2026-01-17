@@ -11,3 +11,16 @@ step 1 - > make a github repository
     pip install -r requirements.txt
     d) src folder -> main folder in which we will be building our entire application and this 
     will work as a package which others can import 
+step2 -> components folder inside src folder (having __init__.py , so that it can be imported as a package) in which we will have different modules for our application like
+data ingestion -> reading data from a particular source is called data ingestion(this will also contain the code for splitting the data into training and testing ) (data_ingestion.py)
+after data ingestion , we have data transformation (like one hot encoding , label encoding)(data_transformation.py)
+model trainer -> in this file , we will train the models (mode_trainer.py)
+step3 -> pipeline folder in src folder -> this will contain three files
+    a) __init__.py
+    b) train_pipeline.py
+    c) predict_pipeline.py
+step4 -> src folder will also contain logger.py , exception.py & utils.py( all the general things which i need for my entire application is written here)
+utils.py -> can contain mongodb client (connection), or save the model to cloud code 
+
+
+
